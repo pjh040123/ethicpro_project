@@ -4,7 +4,7 @@ st.set_page_config(layout='wide')
 
 
 
-st.title("'버츄얼 휴먼' 키오스크 디자인")
+st.title("'버츄얼 휴먼' 키오스크 디자인 똥")
 col1, col2 = st.columns((4,1))
 with col1:
     with st.expander('정보윤리에 대한 영상시청'):
