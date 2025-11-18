@@ -16,7 +16,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 with tabs[0]:
-    '#### 1차시'
+    '#### 1차시 - PhET / HeyGen'
     col1, col2 = st.columns((1,1))
 
     with col1:
@@ -31,18 +31,28 @@ with tabs[0]:
             st.write('')
 
 with tabs[1]:
-    '#### 3차시'
+    '#### 3차시 -  Google Colab'
     col1, col2 = st.columns((2,3))
 
     with col1:
         with st.expander("**Google Colab 사이트**"):
             st.write("아래 버튼을 눌러 Google Colab을 실행하세요.")
             st.markdown("""
-<a href="https://colab.research.google.com/drive/1OX_yhe6AhQp1qzj09xgJ1iLzFWv7awNT?authuser=0" target="_blank">
+<a href="https://colab.google/">
     <button style="padding:20px 40px; font-size:18px;">Google Colab 열기</button>
 </a>
 """, unsafe_allow_html=True)
             st.write('')
+
+        with st.expander("**Google Colab 실행 방법**"):
+            st. write("1. 위 사이트로 접속")
+            st.image("colabproject1.png")
+            st.write('2. New Notebook 선택')
+            st.image("colabproject2.png")
+            st.write("3. 왼쪽 상단 파일 이름을 'project4'로 설정")
+            st.write("왼쪽 상단 런타임 → 런타임 유형 변경 선택")
+            st.image("colabproject3.png")
+            st.write("하드웨어 가속기를 GPU로 설정")
 
     with col2:
         with st.expander('**코드 실행하기**'):
